@@ -49,9 +49,9 @@ public class KeyHandler implements KeyListener{
 		
 		if (code == KeyEvent.VK_A) {
 			leftPressed = false;
-		}
-		
+		}		
 		if (code == KeyEvent.VK_D) {
+			System.out.println("right false");
 			rigthPressed = false;
 		}		
 	}
